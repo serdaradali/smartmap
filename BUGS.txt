@@ -1,0 +1,19 @@
+- Switch to detailed topojson within a city takes longer than usual.
+	* Needs mouseover for regions to be visible
+	** FIXED Watch was not working for choropleth object values, broadcast used instead.
+
++ Point distance to polygon center seems to be wrong
+	* d3.geo.centroid & d3.geo.bounds are not reliable.
+	** FIXED using d3.bounds and Leaflet.getCenter()
+
+- YELP api sometimes returns 404
+	When list is refreshed for one region, clicking other region throws error
+
+- Filter does not work sometimes
+
++ On click region does not work on the first click
+	** FIXED: This was due to the default value of selectedDivisionIndex
+
+ <div class="form-group col-lg-5">
+                                    <input type="text" placeholder="Filter" ng-model="filterText" class="form-control"/>
+                                </div>

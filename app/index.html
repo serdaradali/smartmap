@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="geoAnalysis" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="geoAnalysis" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="geoAnalysis" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="geoAnalysis" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smart Deals</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/ng-grid/ng-grid.min.css"/>
+
+</head>
+<body>
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/leaflet/dist/leaflet.js"></script>
+<script src="bower_components/angular-leaflet/dist/angular-leaflet-directive.min.js"></script>
+<script src="components/heatmapOverlay/heatmap.min.js"></script>
+<script src="components/heatmapOverlay/leaflet-heatmap.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/d3/d3.min.js"></script>
+<script src="bower_components/d3.promise/src/d3.promise.min.js"></script>
+<script src="bower_components/topojson/topojson.js"></script>
+<script src="bower_components/oauth-signature/dist/oauth-signature.min.js"></script>
+
+<script src="app.js"></script>
+
+<script src="components/recommended/yelpAPI.js"></script>
+<script src="components/recommended/divisionRestaurants.js"></script>
+<script src="components/recommended/recommendedController.js"></script>
+
+
+<script src="components/categoryDropdown/categoryService.js"></script>
+<script src="components/categoryDropdown/categoryController.js"></script>
+
+<script src="components/choroplethOverlay/leaflet-choropleth-service.js"></script>
+<script src="components/choroplethOverlay/intersectService.js"></script>
+<script src="components/heatmapOverlay/heatMapService.js"></script>
+<script src="shared/restaurantService.js"></script>
+<script src="components/restaurants/restaurantController.js"></script>
+<script src="components/basemap/basemapController.js"></script>
+
+<script src="components/cityDropdown/cityService.js"></script>
+<script src="components/cityDropdown/cityController.js"></script>
+
+<script src="components/rangeDropdown/rangeController.js"></script>
+
+<script src="components/choroplethOverlay/leaflet-choropleth-directive.js"></script>
+
+
+<script src="bower_components/ng-grid/ng-grid-2.0.14.debug.js"></script>
+<script src="bower_components/ng-grid/plugins/ng-grid-flexible-height.js"></script>
+
+
+<div class="container" id="map" ng-controller="mapController">
+    <leaflet center="center" legend="legend" layers="layers" markers="markers" choropleth="choropleth"></leaflet>
+    <div class="tooltip"></div>
+    <div class="col-md-4 overlay">
+        <h4 class="titleTop">Resto-in Smart Restaurant Finder</h4>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default" id="panel1">
+                <div class="panel-heading smoothOperator">
+                    <h4 class="panel-title settingsTitle">
+                        <a data-toggle="collapse" data-target="#collapseOne"
+                           href="#collapseOne">
+                            Analysis
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" style="height: 0px">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3 dropdown" ng-controller="categoryController">
+                                <label> Type: </label>
+                                <button class="btn btn-default btn-block dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true">
+                                    {{current}}
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu scrollable-menu category" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation" ng-repeat="c in categories">
+                                        <a role="menuitem" tabindex="-1" href="#" ng-click="$parent.setCategory(c)">{{c}}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 dropdown" ng-controller="cityController">
+                                <label> City: </label>
+                                <button class="btn btn-default btn-block dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                    {{current}}
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation" ng-repeat="c in cities">
+                                        <a role="menuitem" tabindex="-1" href="#" ng-click="$parent.setCity(c)">{{c.name}}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 dropdown">
+                                <label> Level: </label>
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-expanded="true">
+                                    {{levels[levelInd]}}
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu scrollable-menu range" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation" ng-repeat="l in levels">
+                                        <a role="menuitem" tabindex="-1" href="#" ng-click="$parent.setLevel($index)">{{l}}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 dropdown" ng-controller="rangeController">
+                                <label> Range: </label>
+                                <button class="btn btn-default btn-block dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-expanded="true">
+                                    {{current}} km
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu scrollable-menu range" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation" ng-repeat="r in ranges">
+                                        <a role="menuitem" tabindex="-1" href="#" ng-click="$parent.setRange(r)">{{r}} km</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" id="panel2">
+                <div class="panel-heading smoothOperator">
+                    <h4 class="panel-title settingsTitle">
+                        <a data-toggle="collapse" data-target="#collapseTwo"
+                           href="#collapseTwo">
+                            Restaurants
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" style="height: 0px">
+                    <div class="panel-body">
+                        <div class="row" ng-controller="restController">
+                            <div class="col-md-12" ng-init="showMarker=true">
+                                <input type="checkbox" ng-model="showMarker"
+                                       ng-change="markerDisplay(showMarker)" id="markerStatus"/>
+                                <label for="markerStatus">Show markers</label>
+                            </div>
+                            <h4 style="text-align: center !important; font-family: Roboto, Arial, sans-serif !important;">{{city}} ({{total}})</h4>
+                            <div id="gridRest" class="gridStyle" ng-grid="gridOptions"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" id="panel3">
+                <div class="panel-heading smoothOperator">
+                    <h4 class="panel-title settingsTitle">
+                        <a data-toggle="collapse" data-target="#collapseThree"
+                           href="#collapseThree">
+                            Recommendations
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" style="height: 0px">
+                    <div class="panel-body">
+                        <div class="row" ng-controller="yelpController">
+                            <h4 ng-if="!regionClicked" style="text-align: center !important; font-family: Roboto, Arial, sans-serif !important;">Please click on a region
+                            </h4>
+                            <div ng-if="regionClicked" class="col-md-12 titleRec">
+                                <h4>
+                                    {{division}}<span ng-if="divisionCallCount">({{rowData.length}})</span>
+                                </h4>
+                                <button ng-if="rowData.length == 0" ng-click="getRecommendations()" class="btn btn-primary suggestionBtn">Get me the list!
+                                </button>
+                                <img src="assets/img/Powered_By_Yelp_Black.png"/>
+                            </div>
+                            <div id="gridSave" ng-if="rowData.length > 0" class="gridStyle" ng-grid="gridOptions"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

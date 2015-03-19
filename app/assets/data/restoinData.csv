@@ -1,0 +1,512 @@
+Name,City,Category,Lat,Lon
+FRANKFURTS CASA VALLES,Barcelona,Sandwich,41.40031052,2.155044794
+Àpat,Barcelona,catalana,41.39200974,2.154367685
+Bembi,Barcelona,indian,41.39367294,2.169064283
+Dionisos,Barcelona,greek,41.40299606,2.156223536
+La Bella Napoli,Barcelona,italian,41.38507843,2.156811476
+La Verònica,Barcelona,italian,41.37973785,2.168020725
+Matsuri,Barcelona,japanese,41.38169861,2.178725958
+Miu,Barcelona,japanese,41.39273834,2.163196802
+Out of China,Barcelona,chinese,41.38859558,2.156984091
+Piazze d'Italia,Barcelona,italian,41.38694763,2.156903028
+Ginos,Barcelona,italian,41.39226532,2.143907309
+Ginos,Barcelona,italian,41.40499496,2.192456961
+Pim Pam Burger,Barcelona,american,41.38576889,2.182441473
+Pim Pam Burger,Barcelona,american,41.4046936,2.132278919
+Grill Room,Barcelona,Modern,41.3792572,2.17608285
+Ándele,Barcelona,mexican,41.3939476,2.135629892
+RANGOLI,Barcelona,indian,41.37489319,2.188529968
+Rangoli,Barcelona,indian,41.37511444,2.188668013
+Watatsumi,Barcelona,japanese,41.37579727,2.150023222
+Hanoi,Barcelona,Vietnamita,41.38943863,2.160924196
+Barraval,Barcelona,tapas,41.37974548,2.167819023
+Casa Palet 1920,Barcelona,catalana,41.39984894,2.150737524
+La Mary,Barcelona,mediterranean,41.39025116,2.146114111
+Ebano,Barcelona,international,41.37513351,2.161989212
+Rita Rouge,Barcelona,Modern,41.38208389,2.169999599
+Cremeria Toscana,Barcelona,Helados,41.39134979,2.152971745
+Pim pam Plats,Barcelona,international,41.38576889,2.182441473
+Surya,Barcelona,indian,41.39031601,2.170330524
+Vitae,Barcelona,mediterranean,41.38153839,2.176811934
+Santa Burg,Barcelona,american,41.37973022,2.136761189
+La Mamounia,Barcelona,Moroccan,41.38951492,2.158911705
+Margherita,Barcelona,italian,41.39511871,2.159536839
+Mayura,Barcelona,indian,41.39386749,2.17220521
+Au nom de la rose,Barcelona,Flowers,41.39012146,2.159637928
+Aapka,Berlin,indian,52.53411865,13.40469933
+Hasir Ost,Berlin,oriental,52.52382278,13.4013195
+Hasir West,Berlin,oriental,52.50048065,13.33691978
+Kien-Du-Kiang-Thong,Berlin,thai,52.51457977,13.30124855
+Kuchi,Berlin,japanese,52.52724457,13.39923668
+Midtown Grill,Berlin,american,52.51089096,13.37640953
+Mylos,Berlin,greek,52.50653839,13.2962904
+Namaskar,Berlin,indian,52.49622345,13.32756901
+Tipica,Berlin,mexican,52.52153397,13.40492725
+Basi'l,Berlin,italian,52.52348709,13.40489388
+Midtown grill ec,Berlin,undefined,0,0
+Yumcha heroes ec,Berlin,undefined,0,0
+Papaya,Berlin,thai,52.48968124,13.36038971
+Papaya,Berlin,thai,52.51071548,13.45789909
+Russisches Café Voland,Berlin,russian,52.54973602,13.41842556
+Ming Dynastie,Berlin,chinese,52.50430298,13.33683395
+Ming Dynastie,Berlin,chinese,52.51337814,13.41784096
+cha chã Positive Eating,Berlin,thai,52.51195145,13.38983059
+Nuova Mirabella,Berlin,italian,52.4655571,13.38375187
+Cicciolina,Berlin,italian,52.49876785,13.43153858
+Cana,Berlin,arabic,52.51218796,13.40868282
+nanoosh,Berlin,mediterranean,52.51239014,13.39101982
+Royal Elephant,Berlin,thai,52.53874969,13.40826035
+Sushi Circle,Berlin,japanese,52.50516129,13.3333149
+Kori & Fay,Berlin,thai,52.50061035,13.31023979
+Restaurant East,Berlin,chinese,52.50722885,13.32114792
+La Corniche,Berlin,oriental,52.47809982,13.3281908
+Moms Favourite,Berlin,german,52.50850677,13.37349796
+Jolesch,Berlin,austrian,52.50080109,13.43385983
+Meena Kumari,Berlin,Pakistani,52.54158401,13.41479969
+Maria und Josef,Berlin,Bavarian,52.44350815,13.29528999
+Allegretto A Tavola,Berlin,italian,52.52082062,13.4018898
+Anantha Raja,Berlin,indian,52.49113083,13.39402008
+DALUMA,Berlin,vegan,52.53047943,13.40248013
+LAAUMA,Berlin,vegan,52.50627136,13.46531105
+Le Clan des Belges,Bruxelles,Belge,50.83562851,4.364764214
+Le Mitsui,Bruxelles,japanese,50.82117844,4.360868931
+L'Atelier de la Truffe Noire,Bruxelles,french,50.82391357,4.367728233
+La Cité du Dragon,Bruxelles,chinese,50.80050659,4.375072479
+Ricotta et Parmesan,Bruxelles,italian,50.84895325,4.353996277
+Le Sushi,Bruxelles,japanese,50.8382988,4.397843838
+Le Shogun,Bruxelles,japanese,50.83595657,4.357902527
+Le Shanti,Bruxelles,vegetarian,50.8169136,4.381846905
+Au Palais des Indes,Bruxelles,indian,50.82449341,4.366321564
+LA CREPERIE,Bruxelles,,50.84080887,4.351490498
+Le Spicy Grill,Bruxelles,indian,50.84499741,4.380447865
+Chi Chi's,Bruxelles,mexican,50.85031891,4.351332664
+Chi Chi's,Bruxelles,mexican,50.81633759,4.391108036
+La Villa Rosa,Bruxelles,Spanish,50.83391571,4.344981194
+Eat East,Bruxelles,thai,50.80802155,4.370378971
+Vini Cucina,Bruxelles,italian,50.80694199,4.371666908
+LE DS CAFE PARIS,Bruxelles,american,0,0
+Da Vincenzo,Bruxelles,italian,50.83536911,4.364728928
+T MISVERSTAND,Bruxelles,french,50.79453278,4.334644794
+RV Traiteur,Bruxelles,,50.84463882,4.436351776
+Deuxième Élément,Bruxelles,thai,50.8359375,4.364844322
+T Misverstand,Bruxelles,french,50.79453278,4.334644794
+Le Blue Elephant,Bruxelles,thai,50.79694366,4.375107288
+La Porte des Indes,Bruxelles,indian,50.81782532,4.371109962
+Le Touareg,Bruxelles,Moroccan,50.79457855,4.364152431
+Le Comptoir,Bruxelles,american,50.83590698,4.365142345
+Mano à Mano,Bruxelles,italian,50.83577347,4.364634991
+Chao Phraya,Bruxelles,thai,50.8245163,4.366141796
+Le P'tit Belge,Bruxelles,Belge,50.83519363,4.364630222
+New Saigon Bangkok,Bruxelles,thai,50.84854126,4.375730991
+Sushiline,Bruxelles,japanese,50.8530159,4.390953541
+Sushiline,Bruxelles,japanese,50.8981781,4.359476566
+Sushiline,Bruxelles,japanese,50.82416153,4.363069534
+Le Guignol,Bruxelles,Belge,50.79294205,4.347979069
+La Bocca Degli Artisti,Bruxelles,italian,50.8492012,4.365367413
+Atelier Européen,Bruxelles,french,50.84475708,4.384944916
+Sushi Shop,Bruxelles,japanese,50.82941437,4.362159252
+Sushi Shop,Bruxelles,japanese,50.78924561,4.375204563
+Sushiline,Bruxelles,japanese,50.8530159,4.390953541
+Sushiline,Bruxelles,japanese,50.8981781,4.359476566
+Chi Chi's WEMMEL,Bruxelles,mexican,50.9098053,4.306290627
+Le Loft,Bruxelles,american,50.83979797,4.36009264
+Gallery Resto Boutique,Bruxelles,Vietnamita,50.83673859,4.355360508
+Le Cap Sablon,Bruxelles,brasserie,50.84176254,4.353982925
+Ô-Chinoise-Riz,Bruxelles,chinese,50.82404327,4.36051178
+Râle-Bol,Bruxelles,Asian,50.82392502,4.359650612
+Philema,Bruxelles,greek,50.82125854,4.356686592
+Lucy Chang,Bruxelles,thai,50.82284927,4.360761642
+Il Perfetto,Bruxelles,italian,50.81254196,4.391661644
+Comptoir du Liban,Bruxelles,lebanese,50.79435349,4.373484612
+A la Folie,Bruxelles,french,50.84176254,4.352226734
+Gusto,Bruxelles,italian,50.82249069,4.357554913
+Les Super Filles Du Tram,Bruxelles,Burger,50.82762909,4.370240211
+Ispahan,Bruxelles,Iranian,50.80459976,4.366332531
+Delecta,Bruxelles,Burger,50.82603836,4.370120049
+Thai Square Uccle,Bruxelles,thai,50.79487991,4.364859104
+I Primi Piatti,Bruxelles,italian,50.85094833,4.346660137
+Eccome No,Bruxelles,,50.83590317,4.363959789
+Tenshi,Bruxelles,Sushis Noodles & Wok,50.79662323,4.374774933
+Choupy's,Bruxelles,Bagel & Burger,50.82865524,4.371926785
+Le Palais du Bengale,Bruxelles,indian,50.83263779,4.389312744
+Paradise of India,Bruxelles,indian,50.86870193,4.399903774
+Bois Savanes,Bruxelles,thai,50.74441147,4.394636631
+Belli E Buoni,Bruxelles,italian,50.8392601,4.40094471
+Zaabär Belgian Chocolate,Bruxelles,Chocolatier,50.82871246,4.355495453
+Al Bacha,Bruxelles,lebanese,50.83455658,4.355392933
+Gri Gri,Bruxelles,african,50.79233932,4.351861954
+Vinomania,Bruxelles,Spanish,50.83344269,4.367023945
+L'Etoile d'Orient,Bruxelles,lebanese,50.80092621,4.336863041
+Cucina d'Elisa,Hamburg,italian,53.57114029,9.988259315
+Mama Trattoria,Hamburg,italian,53.54963684,9.9932127
+Mama Trattoria,Hamburg,italian,53.57061005,9.995304108
+Mama Trattoria,Hamburg,italian,53.58294296,10.01794434
+Mama Trattoria,Hamburg,italian,53.58448029,9.980389595
+Shikara,Hamburg,indian,53.55720901,9.928009033
+Shikara,Hamburg,indian,53.54883194,9.964920044
+Mazza,Hamburg,lebanese,53.5699501,9.966755867
+Shalimar,Hamburg,indian,53.55421066,9.98571682
+Paulaner's,Hamburg,german,53.5505867,9.980614662
+Old MacDonald,Hamburg,american,53.57914734,9.949183464
+cha chã Positive Eating,Hamburg,thai,53.55342865,9.990270615
+Dos amigos,Hamburg,mexican,53.55015182,9.98071003
+Jus,Hamburg,undefined,0,0
+Raw Like Sushi,Hamburg,japanese,53.59222031,9.987549782
+Marilu,Hamburg,italian,53.55080032,9.929974556
+Maral,Hamburg,japanese,53.58361053,9.984729767
+Sushi Lounge X,Hamburg,japanese,53.57320023,9.993249893
+Maharani,Hamburg,indian,53.57303238,9.978794098
+La Sorpresa,Hamburg,italian,53.57487106,10.01993942
+Chicago Meatpackers,Hamburg,american,53.59254837,9.986419678
+Xenios bei Themi,Hamburg,greek,53.57514191,9.957670212
+Elbe 76,Hamburg,international,53.57527924,9.966050148
+Beiti,Hamburg,vegetarian,53.59864044,9.99709034
+White Lounge,Hamburg,crossover kitchen,53.58358002,10.0197897
+Better Burger Company,Hamburg,american,53.55197144,10.00072002
+Nio,Hamburg,italian,53.54962921,9.968090057
+Chapeau! Grill & Bar,Hamburg,international,53.58493042,10.00870037
+Chapeau! Grill & Bar for Brunch only,Hamburg,Brunch,53.58493042,10.00870037
+XX L'ANTR'ACT,Lille,french,50.62605667,3.069624901
+XX LE GAN'GE,Lille,indian,50.64323044,3.067526817
+XX ORANGE EXPRESSION,Lille,italian,50.64138031,3.065528393
+Bombay Palace,London,indian,51.5142746,-0.167851806
+La Porte des Indes,London,indian,51.51433182,-0.157970607
+Blue Elephant,London,thai,51.47319412,-0.182273194
+189 Piccadilly,London,italian,51.50844193,-0.137841105
+Gaylord,London,indian,51.51758194,-0.141042694
+Planet Hollywood,London,american,51.50892639,-0.132748693
+Champagne+Fromage,London,french,51.51197815,-0.120070703
+Firecracker,London,chinese,51.49516296,-0.127447799
+Drunken Monkey,London,chinese,51.5223732,-0.078193396
+Fairuz,London,lebanese,51.51823425,-0.151975006
+Greek Affair,London,greek,51.50828171,-0.197420195
+Imperial City,London,chinese,51.51335907,-0.086536102
+Kenza Lounge,London,lebanese,51.51661301,-0.079358302
+La Pietra,London,italian,51.51745987,-0.073290199
+Montpeliano,London,italian,51.49925613,-0.165941104
+Mori Sushi,London,japanese,51.48863983,-0.165310204
+Mori Sushi,London,japanese,51.53288651,-0.169646204
+Moo Cantina Argentina,London,argentinian,51.51581573,-0.075492702
+Zengi,London,lebanese,51.51709366,-0.073217101
+The Papaya Tree,London,thai,51.49943161,-0.196645603
+Noura,London,lebanese,51.50683594,-0.148497805
+Boho Mexica,London,mexican,51.52118301,-0.075447403
+Shezan,London,indian,51.49892807,-0.1665539
+Salt'N Pepper,London,indian,51.50918961,-0.129904494
+Buddha Bar,London,japanese,51.5015564,-0.162517995
+Fratelli la Bufala,London,italian,51.50801086,-0.123590201
+Imli Street,London,indian,51.5146637,-0.135087207
+Les Gourmets des Ternes,London,french,51.52449799,-0.185030594
+SUDA,London,thai,51.51173019,-0.1232697
+Patara,London,thai,51.49781418,-0.165188894
+Patara,London,thai,51.51412201,-0.130844593
+Clockjack,London,Roaster,51.51070786,-0.135357007
+East Street,London,Asian,51.51660538,-0.132954195
+La Patisserie des Reves,London,Pâtisserie,51.52131653,-0.151793703
+UNI,London,japanese,51.4960289,-0.147412896
+La Sophia Restaurant and Portobello Juice Bar,London,mediterranean,51.51916122,-0.207627296
+Meejana,London,lebanese,51.48936462,-0.190598696
+Noodle House,London,Asian,51.5136795,-0.128741995
+Princi,London,italian,51.51383972,-0.134330004
+CHAKRA,London,indian,51.50841522,-0.200066507
+Gino DAcampo My Pasta Bar,London,italian,51.51398849,-0.109579802
+Pellicanino,London,italian,51.49124146,-0.167236805
+L'oud Des Eurasie,London,lebanese,51.48250198,-0.181082204
+Delancey & Co,London,american,51.51954269,-0.135211393
+Pull'd,London,Fusion,51.51203918,-0.092294604
+The Wild Game Co,London,english,51.51979828,-0.136458904
+Sri Thai City,London,thai,51.51692581,-0.085102797
+Camino,London,Spanish,51.51325607,-0.103086598
+Camino,London,Spanish,51.5309639,-0.121936999
+Street Art,Lyon,american,45.76721954,4.854697704
+L'Indochine,Lyon,chinese,45.75463867,4.841802597
+LE BARONN,Lyon,french,48.29968643,1.242945075
+CHANGO MAMBOO,Lyon,South American,45.76818085,4.845705986
+Pompéi,Lyon,italian,45.76381302,4.866625786
+La Mamounia,Lyon,Moroccan,45.76607895,4.83658123
+La Pataterie,Lyon,,45.72964859,4.830924988
+Le Mont Liban,Lyon,lebanese,45.76373291,4.832613945
+Le Liban Vert,Lyon,lebanese,45.75078201,4.830572128
+Lal Qila,Lyon,indian,45.76576614,4.827629566
+Le Couloir Italien,Lyon,italian,45.76662445,4.855802536
+L'Étoile d'Orient,Lyon,Moroccan,45.75271606,4.831299305
+Le Karachi,Lyon,indian,45.75875854,4.852268219
+GIOVANY'S,Lyon,italian,45.76331329,4.828434467
+Spicy Tandoori,Lyon,indian,45.7728157,4.86620903
+Le Touareg,Lyon,Moroccan,45.76247406,4.826654911
+Délices et Sens,Lyon,Modern,45.76506424,4.836456776
+La Petite Tendance,Lyon,lebanese,45.77086258,4.867852211
+Grain de Riz,Lyon,chinese,45.77147293,4.805307865
+Le Shimla,Lyon,indian,45.77342224,4.866943836
+Fuxia,Lyon,italian,45.74771118,4.824100018
+Jardin du Bambou,Lyon,chinese,45.75764465,4.848401546
+Burger & Wine,Lyon,american,45.74295807,4.816053391
+Café Français,Lyon,brasserie,45.75656128,4.83448267
+Suelta Verde,Lyon,mexican,45.78583145,4.854852676
+Terrazzura,Lyon,italian,45.78578568,4.854699135
+La Cannelle,Lyon,,45.76736832,4.825745583
+Gingko,Lyon,thai,45.73480225,4.875054836
+Best Bagels,Lyon,bagel,45.75358963,4.82884407
+Layali Beyrouth,Lyon,lebanese,45.75200272,4.86558485
+Le jardin de Berthe,Lyon,,45.75322342,4.831960201
+Le comptoir Joa,Lyon,brasserie,45.7857666,4.854870319
+Crêperie Belle Ile,Lyon,crepes,45.76732254,4.854681492
+Ristretto By Red Café,Lyon,brasserie,45.7533226,4.83370018
+Le Summertime,Lyon,french,45.76716995,4.836424828
+Le Cintra,Lyon,brasserie,45.76435089,4.837068558
+Merle,Lyon,fruits de mer,45.77510834,4.850197315
+Meiji Era,Lyon,japanese,45.76170349,4.834480286
+Le jardin de Berthe Opéra,Lyon,,45.76675797,4.836815834
+Kohinoor,Lyon,indian,45.75688934,4.854412556
+HD Diner,Lyon,american,45.75986862,4.855770588
+La Cuisine de Lindouce,Lyon,Franco Ivoirien,45.73314285,4.803363323
+L'Adresse,Lyon,french,45.76622772,4.818366528
+Chez Grand Mère,Lyon,french,45.76288223,4.827234745
+Café du Pond,Lyon,french,45.76832199,4.843131542
+King Marcel Mercière,Lyon,american,45.76317596,4.83290863
+King Marcel Part Dieu,Lyon,american,45.76406479,4.857866764
+LAURELINE'S CORNER,Lyon,Pâtisserie,45.76935577,4.835522175
+Le Petit Saint Petersbourg,Lyon,russian,45.76988602,4.850498199
+Due By Maurizio,Lyon,italian,45.77505875,4.803438187
+LA MEDINA,Lyon,oriental,45.753479,4.841516495
+Pâtisserie MEDINA,Lyon,Pâtisserie,45.753479,4.841516495
+Arrocería Mediterráneo,Madrid,Arrocería,40.45304871,-3.68510437
+Arrocería Mediterráneo,Madrid,Arrocería,40.42391968,-3.685964584
+Artemisa,Madrid,vegetarian,40.41595078,-3.698950768
+ARTURO,Madrid,Spanish,40.42816162,-3.697521687
+Curry's,Madrid,indian,40.42134857,-3.706203699
+Edelweiss,Madrid,german,40.41688919,-3.696524858
+Flash Flash,Madrid,mediterranean,40.43058395,-3.682448864
+Sí Señor,Madrid,mexican,40.44993591,-3.690231085
+Tao,Madrid,japanese,40.46341705,-3.687410831
+Tsunami,Madrid,japanese,40.43093109,-3.69671154
+Tommy Mel's,Madrid,american,40.45495987,-3.694119453
+Tommy Mel's,Madrid,american,40.4219017,-3.699928045
+Tommy Mel's,Madrid,american,40.49665833,-3.6666677
+Krachai,Madrid,thai,40.425354,-3.696204424
+Pato Laqueado,Madrid,chinese,40.46799088,-3.689493656
+El Olvido,Madrid,Spanish,40.46048355,-3.687007189
+Nippon,Madrid,japanese,40.41755295,-3.697207212
+Mezklum,Madrid,Modern,40.41544342,-3.700378895
+Dionisos,Madrid,greek,40.42367935,-3.697333574
+Dionisos,Madrid,greek,40.41376877,-3.698880196
+Mesón del Cid,Madrid,Spanish,40.44009018,-3.694497108
+La Hispana,Madrid,Spanish,40.45537186,-3.676923752
+Alfredo's Barbacoa,Madrid,american,40.46056366,-3.687193155
+Alfredo's Barbacoa,Madrid,american,40.4217453,-3.688022137
+Ginos,Madrid,italian,40.42650604,-3.685405254
+Ginos,Madrid,italian,40.46378708,-3.685067892
+Ginos,Madrid,italian,40.44618225,-3.704150438
+The Wok,Madrid,Modern,40.42605591,-3.692211151
+The Wok,Madrid,Modern,40.39538956,-3.68012476
+The Wok,Madrid,Modern,40.53087616,-3.637253046
+Imanol,Madrid,Vasco,40.454422,-3.679237127
+Más Que Pintxos...,Madrid,tapas,40.4568634,-3.687576532
+Ribs,Madrid,american,40.41935349,-3.704201937
+Sushiwakka,Madrid,japanese,40.45752716,-3.691805601
+Tepic,Madrid,mexican,40.4219017,-3.699038506
+La Sal de Montalbán,Madrid,Spanish,40.41823196,-3.691112041
+LeCafé,Madrid,mediterranean,40.42184067,-3.689901829
+Oam Thong,Madrid,thai,40.44114685,-3.670825481
+La Leyenda del Ágave,Madrid,mexican,40.42581558,-3.682833195
+Casa Gades,Madrid,italian,40.42251968,-3.694149017
+The Burger Lobby,Madrid,american,40.42033768,-3.695616484
+Arrocería Bernabéu,Madrid,Arrocería,40.46178055,-3.685143948
+Sapori di Sicilia,Madrid,italian,40.43117142,-3.713013887
+Delhi,Madrid,indian,40.42511368,-3.711846828
+Casa Carola,Madrid,castellana,40.43519974,-3.681339979
+La Nicoletta,Madrid,italian,40.43421173,-3.693319559
+O Mamma Mia,Madrid,italian,40.43713379,-3.686521053
+Swagat,Madrid,indian,40.42438889,-3.682976007
+Los Galayos,Madrid,Spanish,40.41486359,-3.706687689
+Le Pain Quotidien,Madrid,,40.42711639,-3.701653004
+Giangrossi,Madrid,Helados,40.42634201,-3.684263468
+Sushi Shop,Madrid,japanese,40.42034912,-3.688740253
+Sushi Shop,Madrid,japanese,40.42635727,-3.69277668
+El Horno de Juan,Madrid,castellana,40.42363358,-3.677446842
+Il Salotto,Madrid,italian,40.42915726,-3.684019566
+El Abrazo de Vergara,Madrid,mediterranean,40.41746902,-3.711163759
+Thong,Madrid,chinese,40.4370079,-3.686919212
+Ganges,Madrid,indian,40.45764923,-3.678058624
+El Recuerdo,Madrid,Spanish,40.44734573,-3.698409319
+Summa,Madrid,japanese,40.45615005,-3.68807745
+Mythos,Madrid,greek,40.42730713,-3.69974184
+Al Fanus,Madrid,Syrian,40.44438553,-3.677234411
+La Vaca Picada,Madrid,american,40.43513107,-3.683951616
+El Escaldón,Madrid,canaria,40.41300201,-3.710102797
+Shukran express,Madrid,lebanese,40.430336,-3.663785458
+Shukran Casa Árabe,Madrid,lebanese,40.430336,-3.663785458
+Pombo 18,Madrid,Spanish,40.50725937,-3.655492306
+Diwali,Madrid,indian,40.42211533,-3.677354574
+Ecocentro,Madrid,vegetarian,40.44298935,-3.704986572
+El escondite Villanueva,Madrid,mediterranean,40.42234421,-3.685995102
+La Carmencita,Madrid,Spanish,40.42113495,-3.697340488
+La Torcaz,Madrid,Spanish,40.43111038,-3.684877157
+SANUK,Madrid,thai,40.50011444,-3.67256999
+Las Noches de Moscú,Madrid,russian,40.42495728,-3.704256773
+Fado Restaurante Portugués,Madrid,Portuguese,40.44931793,-3.660128593
+Burger Lovers,Madrid,Burger,40.42947769,-3.701589108
+Sushiwakka sin Gluten,Madrid,japanese,40.45752716,-3.691805601
+El Inca,Madrid,,40.42266846,-3.696208715
+Du Liban,Madrid,lebanese,40.51481247,-3.652366161
+Il Tocco Giusto,Madrid,italian,40.43005753,-3.701731443
+Sagar,Madrid,indian,40.43581772,-3.672410488
+Celso y Manolo,Madrid,Spanish,40.42023087,-3.697434425
+The Place,Madrid,international,40.42573166,-3.708813667
+The Cask,Madrid,mediterranean,40.41257858,-3.694101095
+Tuk Tuk,Madrid,thai,40.42995834,-3.701565981
+Crumb,Madrid,Sandwich,40.42604065,-3.711321115
+El Colmado de Chema,Madrid,mediterranean,40.43126297,-3.702714682
+Taberna Rayuela,Madrid,international,40.41367722,-3.712537527
+Arroceria Daniela,Madrid,Arrocería,40.41436768,-3.704518318
+Alta Burgersia,Madrid,Burger,40.41339493,-3.69983077
+Juanyta Me Mata,Madrid,mediterranean,40.43436813,-3.676469803
+Flores Bucaro,Madrid,Flowers,40.45380783,-3.678638458
+by.kono,Madrid,japanese,40.42069244,-3.699678898
+Latitud,Madrid,exotic,40.46242905,-3.686690092
+Le Jaipur,Marseille,indian,43.29391098,5.373437881
+Al Dente,Marseille,italian,43.2893486,5.379692554
+Chez Quan,Marseille,chinese,43.25498962,5.376354218
+La Kahena,Marseille,tunisian,43.29636002,5.374120235
+Al Jennah,Marseille,lebanese,43.29490662,5.382894516
+La Brocéliande,Marseille,crepes,43.29299164,5.373156071
+La Garbure,Marseille,sud-ouest,43.2952652,5.382750034
+Le Mélo Café,Marseille,Modern,43.29394531,5.383046627
+Samir Chagouri Byblos Prado,Marseille,lebanese,43.25225067,5.375797749
+Mina Kouk,Marseille,Moroccan,43.29232025,5.385202408
+Kalipita,Marseille,greek,43.29476547,5.376881599
+Ashoka,Marseille,indian,43.2930603,5.373722076
+CHAMI,Marseille,lebanese,43.30715561,5.374377251
+Ô Saveurs du Liban,Marseille,lebanese,43.29362869,5.373459339
+Le Raja,Marseille,indian,43.26550674,5.373267651
+Burger and Coffee,Marseille,american,43.29733276,5.382386684
+Siamin,Paris,thai,48.86685562,2.307692766
+Kok Ping,Paris,chinese,48.8731575,2.300238371
+Chez Bebert,Paris,Moroccan,48.84389877,2.324668407
+Fuxia,Paris,italian,48.87052155,2.285145998
+Fuxia,Paris,italian,48.87849045,2.339607
+Fuxia,Paris,italian,48.85554123,2.357434988
+Fuxia,Paris,italian,48.84760666,2.34021759
+Fuxia,Paris,italian,48.88305664,2.308319092
+Balthazar,Paris,french,48.88192368,2.295866489
+Bouillon Racine,Paris,brasserie,48.85018158,2.342050076
+7eme SUD,Paris,mediterranean,48.8577652,2.306470871
+NOVE SETTE,Paris,italian,48.88304138,2.318478584
+Noura,Paris,lebanese,48.86736679,2.299093723
+Chez Françoise,Paris,brasserie,48.86252213,2.314783335
+La Romantica Caffe,Paris,italian,48.86846542,2.324838161
+La Marée,Paris,french,48.87731552,2.300439119
+Spice and Wine,Paris,thai,48.83459473,2.323872566
+Oh,Paris,,48.87204742,2.339892864
+Fusion Latina,Paris,South American,48.835495,2.318108082
+Palais de l Inde 75005,Paris,indian,48.83706665,2.35087657
+Palais de l'Inde,Paris,indian,48.86510849,2.395795107
+Palais de l'Inde,Paris,indian,48.83706665,2.35087657
+Toi Restaurant,Paris,french,48.87113953,2.3090837
+Momiji,Paris,japanese,48.85440826,2.371204138
+LE SAINT-CYR PALACE,Paris,world,48.88260651,2.28658843
+L'EMILE,Paris,french,48.86224747,2.340191364
+MACHAWI,Paris,lebanese,48.89250946,2.324737549
+Le Nodaiwa,Paris,japanese,48.86438751,2.333277225
+Le PDG (rive gauche),Paris,Burger,48.85375977,2.331297636
+NEW EST,Paris,american,48.87444305,2.358857393
+PAOLO PETRINI,Paris,italian,48.87799835,2.287149906
+LE DS CAFE PARIS,Paris,american,48.89562225,2.276277304
+LE DS CAFE PARIS,Paris,american,48.88109589,2.295238495
+Truffes Folies,Paris,,48.85972595,2.306326628
+L'huitrier,Paris,fruits de mer,48.87976074,2.296103477
+LA SANDALIA,Paris,italian,48.8765564,2.342624426
+Prego's,Paris,italian,48.8671608,2.298708916
+Au Pied de Cochon,Paris,brasserie,48.86346436,2.343738079
+Francesca,Paris,italian,48.8792305,2.349362135
+Flora Danica,Paris,Danish,48.87266922,2.298538208
+Le Grand Café,Paris,french,48.87104034,2.333647251
+Charlot,Paris,fruits de mer,48.87782669,2.330349684
+Le Procope,Paris,french,48.85301208,2.338715553
+La Fermette Marbeuf,Paris,french,48.86742401,2.302098274
+La Lorraine,Paris,fruits de mer,48.87792969,2.29881978
+Le Petit Zinc,Paris,fruits de mer,48.85476303,2.333035707
+Chez Jenny,Paris,brasserie,48.86624908,2.364855528
+Le Sud,Paris,,48.87900543,2.284617901
+Chez Clément,Paris,brasserie,48.87039185,2.331735373
+Chez Clément,Paris,brasserie,48.87833786,2.284467459
+Chez Clément,Paris,brasserie,48.87210464,2.297945499
+Chez Clément,Paris,brasserie,48.8421402,2.328576088
+Chez Clément,Paris,brasserie,48.83431244,2.245127678
+Le Chalet du 8ème,Paris,crepes,48.87272263,2.308997393
+Alfredo Positano 6ème,Paris,italian,48.85189056,2.334699392
+Masaman,Paris,thai,48.85496902,2.387189388
+Le Petit Centre du Monde,Paris,Vietnamita,48.87020874,2.311030626
+Le Petit Victor Hugo,Paris,brasserie,48.86717224,2.279866695
+Côme,Paris,Salad bar,48.88224411,2.307838917
+Diep,Paris,chinese,48.86926651,2.302798986
+Casa Luca,Paris,italian,48.87221146,2.296783686
+La Maison du Caviar,Paris,french,48.87091827,2.301109076
+Le Caroubier,Paris,Moroccan,48.82886505,2.299053907
+Amorino,Paris,Helados,48.85189438,2.334553719
+Cinecitta,Paris,italian,48.88866043,2.316640854
+Piccolo Mondo,Paris,italian,48.88415146,2.257686615
+Tommasino,Paris,italian,48.88395691,2.265589476
+Casa Tommaso,Paris,italian,48.87094116,2.284819841
+Joe Allen,Paris,Burger,48.87073135,2.357890129
+Maison de Charly,Paris,Moroccan,48.87850952,2.284654617
+La Puttanesca,Paris,italian,48.88041306,2.325279713
+K'fé Court,Paris,italian,48.86996841,2.27518034
+kaiten,Paris,japanese,48.8699646,2.303891659
+Burger & Fils,Paris,Burger,48.87267685,2.308199167
+ziti,Paris,italian,48.86951065,2.303369761
+Pasta Oro,Paris,italian,48.8415451,2.26632762
+Le PDG (rive droite),Paris,Burger,48.87083817,2.309007883
+Blue Elephant,Paris,thai,48.85548401,2.374083519
+Chido,Paris,mexican,48.8733902,2.308935642
+Mitsou,Paris,chinese,48.87259293,2.309308052
+Bien Fait,Paris,bagel,48.83519745,2.326616049
+Bedford Diner,Paris,Burger,48.85649109,2.305642366
+Bedford Diner,Paris,Burger,48.85666275,2.35561204
+HD Diner,Paris,Burger,48.85865402,2.354853153
+HD Diner,Paris,Burger,48.8920784,2.297215939
+Rimal,Paris,lebanese,48.8811264,2.312641859
+Raimo,Paris,Pâtisserie,48.85848618,2.35520792
+Mister garden,Paris,Salad bar,48.87298203,2.309443235
+Angelina,Paris,Pâtisserie,48.85329819,2.322867155
+La Pâtisserie des Rêves,Paris,Pâtisserie,48.86657333,2.27929306
+Café Pouchkine,Paris,Pâtisserie,48.85655975,2.364705801
+Chloé S Cupcakes,Paris,Pâtisserie,48.87989426,2.334670067
+Popelini,Paris,Pâtisserie,48.86238861,2.363833189
+Scoop me a cookie,Paris,Pâtisserie,48.88625717,2.317980289
+Henri Le Roux,Paris,Pâtisserie,48.85365677,2.336503029
+Helmut Newcake,Paris,Pâtisserie,48.8715477,2.368176937
+Hugo & Victor,Paris,Pâtisserie,48.85246277,2.32618165
+Meert,Paris,Pâtisserie,48.85521317,2.337327003
+Jean Charles Rochoux,Paris,Pâtisserie,48.84912109,2.328284264
+Arnaud Delmontel,Paris,Pâtisserie,48.87956238,2.339816809
+Berko Original,Paris,Pâtisserie,48.8608017,2.354656696
+L'Atelier de l'Éclair,Paris,Pâtisserie,48.86626816,2.345246315
+Diamande,Paris,Pâtisserie,48.85536575,2.370805502
+Damyel,Paris,Pâtisserie,48.86604309,2.286242485
+Joséphine Vannier,Paris,Pâtisserie,48.8559494,2.367588043
+Kluger - Paris,Paris,Pâtisserie,48.8519249,2.378615618
+La Fabrique Cookies,Paris,Pâtisserie,48.87997437,2.339459419
+Les Fées Pâtissières,Paris,Pâtisserie,48.86072159,2.354769468
+La rughetta,Paris,italian,48.88650894,2.333566189
+Pâtisserie Ciel,Paris,Pâtisserie,48.84951019,2.349546194
+ZE GATO,Paris,Pâtisserie,48.82278442,2.247046232
+Da Rosa,Paris,tapas,48.85333633,2.336796761
+Brian is in the kitchen,Paris,Salad bar,48.86875153,2.336409807
+Slize,Paris,,48.86499023,2.375336409
+Clyde,Paris,Burger,48.87076187,2.341175318
+Gabe,Paris,,48.8666954,2.360802174
+Monsieur A,Paris,,48.87532425,2.285148859
+Royal Rajmahal,Paris,indian,48.85448456,2.339159727
+Harper's,Paris,Burger,48.88459778,2.31488204
+Au nom de la rose,Paris,Flowers,48.88116455,2.312857389
+Framboise,Paris,crepes,48.86348343,2.33418417
+Framboise,Paris,crepes,48.85876465,2.285037518
+Bert's,Paris,Sandwich,48.86513901,2.300752401
+Débo Gato,Paris,Pâtisserie,48.86522293,2.284302235
+Frenchie to go,Paris,,48.86767197,2.34757328
+Balls,Paris,balls,48.86183548,2.380387783
+East Side Burgers,Paris,,48.86181259,2.373045921
+Lobster bar,Paris,,48.86447906,2.340638161
+Mozzachic,Paris,Salad bar,48.87332153,2.316037178
+Hank Restaurant,Paris,,48.86157608,2.358293295
