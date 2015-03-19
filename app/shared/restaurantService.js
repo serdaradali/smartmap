@@ -10,7 +10,7 @@ angular.module("geoAnalysis")
         var dataPromise = {};
 
         var readData = function() {
-            dataPromise =  d3.promise.csv("assets/data/restoInDataDetailed2.csv");
+            dataPromise =  d3.promise.csv("assets/data/restoinDataDetailed2.csv");
             return dataPromise;
         }
 
