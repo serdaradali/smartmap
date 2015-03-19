@@ -29,8 +29,6 @@
 <script src="bower_components/angular/angular.min.js"></script>
 <script src="bower_components/leaflet/dist/leaflet.js"></script>
 <script src="bower_components/angular-leaflet/dist/angular-leaflet-directive.min.js"></script>
-<script src="components/heatmapOverlay/heatmap.min.js"></script>
-<script src="components/heatmapOverlay/leaflet-heatmap.js"></script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/d3/d3.min.js"></script>
@@ -50,7 +48,6 @@
 
 <script src="components/choroplethOverlay/leaflet-choropleth-service.js"></script>
 <script src="components/choroplethOverlay/intersectService.js"></script>
-<script src="components/heatmapOverlay/heatMapService.js"></script>
 <script src="shared/restaurantService.js"></script>
 <script src="components/restaurants/restaurantController.js"></script>
 <script src="components/basemap/basemapController.js"></script>
@@ -82,7 +79,7 @@
                         </a>
                     </h4>
                 </div>
-                <div id="collapseOne" class="panel-collapse collapse" style="height: 0px">
+                <div id="collapseOne" class="panel-collapse collapse" style="height: 0">
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-md-3 dropdown" ng-controller="categoryController">
@@ -146,7 +143,7 @@
                         </a>
                     </h4>
                 </div>
-                <div id="collapseTwo" class="panel-collapse collapse" style="height: 0px">
+                <div id="collapseTwo" class="panel-collapse collapse" style="height: 0">
                     <div class="panel-body">
                         <div class="row" ng-controller="restController">
                             <div class="col-md-12" ng-init="showMarker=true">
@@ -169,7 +166,7 @@
                         </a>
                     </h4>
                 </div>
-                <div id="collapseThree" class="panel-collapse collapse" style="height: 0px">
+                <div id="collapseThree" class="panel-collapse collapse" style="height: 0">
                     <div class="panel-body">
                         <div class="row" ng-controller="yelpController">
                             <h4 ng-if="!regionClicked" style="text-align: center !important; font-family: Roboto, Arial, sans-serif !important;">Please click on a region

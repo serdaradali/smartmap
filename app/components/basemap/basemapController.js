@@ -3,10 +3,10 @@
  */
 
 angular.module("geoAnalysis")
-.controller("mapController",['$rootScope','$scope', 'dataService', 'leafletData', 'heatMapService','categoryService',
+.controller("mapController",['$rootScope','$scope', 'dataService', 'leafletData', 'categoryService',
         'cityService', 'intersectService', '$q',
-        function($rootScope, $scope, dataService, leafletData, heatMapService, categoryService,
-                 cityService, intersectService, $q){
+        function($rootScope, $scope, dataService, leafletData, categoryService,
+                 cityService, intersectService){
 
             var restaurant_icons = {
                 defaultIcon: {
@@ -20,7 +20,7 @@ angular.module("geoAnalysis")
                     //iconAnchor:   [11, 47], // point of the icon which will correspond to marker's location
                     //popupAnchor:  [-2, -38] // point from which the popup should open relative to the iconAnchor
                 }
-            }
+            };
 
             angular.extend($scope,{
                 mapObj: {},
@@ -34,7 +34,7 @@ angular.module("geoAnalysis")
                     colors: [],
                     labels: []
                 },
-                markers: new Array(),
+                markers: [],
                 levels: cityService.getCurrentCityLevels(),
                 levelInd: 0
             });
