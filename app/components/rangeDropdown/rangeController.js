@@ -7,7 +7,7 @@ angular.module("geoAnalysis")
 
         angular.extend($scope, {
             ranges: [1,2,3,4,6,9],
-            current: 4,
+            current: 1,
             setRange: function(val) {
                 $scope.current = val;
                 //heatMapService.setRadius(val);

@@ -122,16 +122,15 @@ svg.leaflet-layer.leaflet-zoom-hide {
 }
 
 .titleRec {
-    margin-top: 30px;
-    margin-bottom: 10px;
     text-align: center;
     font-family: Roboto, Arial, sans-serif !important;
 }
 
 .gridStyle {
     border: 1px solid rgb(212,212,212);
-    width: 100%;
+    width: 400px;
     height: 300px;
+    margin-left: 10px;
 }
 
 

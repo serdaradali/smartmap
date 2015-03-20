@@ -5,7 +5,7 @@
 
 angular.module("geoAnalysis")
     .factory("intersectService",function() {
-        var regions = [], points = [], intersectCount = [], ratingCount = [], mapObj = {}, radius = 4000;
+        var regions = [], points = [], intersectCount = [], ratingCount = [], mapObj = {}, radius = 1000;
 
         var pixelDistance = function (lat,zoomLevel) {
             return (40075*1000) * Math.abs(Math.cos(lat*(Math.PI/180)))/Math.pow(2,(zoomLevel+8));

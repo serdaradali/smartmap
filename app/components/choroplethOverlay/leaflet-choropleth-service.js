@@ -224,8 +224,8 @@
                                         title +=  '<h5 style="text-decoration: underline;">' + d.properties.name + '</h5>';
                                     }
 
-                                    title += '<p>' + 'Restaurants: ' + '<strong style="font-size: 15px">' + that._data[i] + '</strong>'+ '</p>'
-                                    + '<p>' + 'Rating: ' + '<strong style="font-size: 15px">' + that._ratings[i] + '</p>';
+                                    title += '<p>' + 'Resto-in Partners: ' + '<strong style="font-size: 15px">' + that._data[i] + '</strong>'+ '</p>'
+                                    + '<p>' + 'Avg. Rating: ' + '<strong style="font-size: 15px">' + that._ratings[i] + '</p>';
 
                                     return title;
 
@@ -268,7 +268,8 @@
                     if (data) {
                         this._data = data;
                         maxValue = mVal || 1;
-                        this._redrawColor();
+                        this._redraw();
+                        //this._redrawColor();
                     }
                     else {
                         this._data = [];
@@ -300,7 +301,7 @@
                         this._jsonFeature = json;
                         // boundaries of polygon shape of selected city in world coordinates
                         this._bounds = d3.geo.bounds(this._jsonFeature); // get the geographic boundaries of polygons
-                        this._redraw();
+                        //this._redraw();
                     }
                     else {
                         this._jsonFeature = {};

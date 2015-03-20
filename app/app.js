@@ -4,5 +4,7 @@
 angular.module('geoAnalysis', [
     "leaflet-directive",
     "leaflet-choropleth-directive2",
-    'ngGrid'
+    'ui.grid',
+    'ui.grid.resizeColumns',
+    'ui.grid.selection'
 ]);

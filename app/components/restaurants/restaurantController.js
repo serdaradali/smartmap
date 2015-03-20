@@ -3,19 +3,21 @@
  */
 
 angular.module("geoAnalysis")
-    .controller("restController",['$scope', 'dataService','cityService',
-        function($scope, dataService, cityService){
+    .controller("restController",['$scope', 'dataService','cityService','choroService','uiGridConstants',
+        function($scope, dataService, cityService, choroService,uiGridConstants){
             $scope.city = "";
-            $scope.rowData = [];
             $scope.total = 0;
-            $scope.columns = [{field:'name', displayName:'Name', width:"50%"},
-                {field:'type', displayName:'Type', width:"50%"}];
+            $scope.columns = [{name:'name', field:'Name'},
+                {name:'type', field:'Type'}, {name:'rating', field:'Rating', sort: {
+                    direction: uiGridConstants.DESC,
+                    priority: 0
+                }}];
 
             angular.extend($scope, {
                 gridOptions: {
-                    data: 'rowData',
-                    showSelectionCheckbox: true,
-                    columnDefs: 'columns'
+                    data: [],
+                    columnDefs: $scope.columns,
+                    enableFiltering: true
                 }
             });
 
@@ -33,14 +35,25 @@ angular.module("geoAnalysis")
                 return  dataService.getFilteredData();
             },function(newVal,oldVal) {
                 if(newVal.length > 0) {
-                    $scope.rowData = [];
+                    $scope.gridOptions.data = [];
                     for(var i=0;i<newVal.length;i++) {
-                        $scope.rowData.push({'name':newVal[i].Name, 'type':newVal[i].Category});
+                        $scope.gridOptions.data.push({'Name':newVal[i].Name, 'Type':newVal[i].Category, 'Rating':newVal[i].Rating});
                     }
-                    $scope.total = $scope.rowData.length;
+                    $scope.total = $scope.gridOptions.data.length;
                     $scope.city = cityService.getSelectedCity();
                 }
             },true)
+
+            // when clicked on a region
+            $scope.$watch(function(){
+                    return choroService.selectedDivisionIndex();
+                },
+                function(newVal,oldVal) {
+                    if(newVal.ind !== -1) {// if it is not the default value
+                        cityService.setCurrentDivision(newVal.ind);
+                        $scope.city = cityService.getCurrentDivision();
+                    }
+                },true);
 
             // when a category is selected in the dropdown
             /*$scope.$watch(function(){

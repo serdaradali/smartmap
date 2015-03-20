@@ -13,8 +13,9 @@ angular.module("geoAnalysis")
         "retrieveYelp": function(bounds, c, off, callback) {
             var method = 'GET';
             var url = 'http://api.yelp.com/v2/search';
+            var callbackId = angular.callbacks.counter.toString(36);
             var params = {
-                callback: 'angular.callbacks._'+ c,
+                callback: 'angular.callbacks._'+ callbackId,
                 bounds:bounds[0][1]+','+bounds[0][0]+'|'+bounds[1][1]+','+bounds[1][0],
                 offset: 20+ off*20,
                 oauth_consumer_key: '2oQ8t43Tfpx5lCkM94fjKA', //Consumer Key
@@ -29,7 +30,9 @@ angular.module("geoAnalysis")
             var signature = oauthSignature.generate(method, url, params, consumerSecret, tokenSecret, { encodeSignature: false});
             params['oauth_signature'] = signature;
             $http.jsonp(url, {params: params})
-                .success(callback)
+                .success(function(data){
+                    callback(data);
+                })
                 .error(function(data, status, headers, config) {
                console.log(status);
             });

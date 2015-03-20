@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/ng-grid.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/ui-grid.min.css"/>
 
 </head>
 <body>
@@ -27,6 +27,11 @@
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
 -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-touch.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-animate.js"></script>
+<script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+<script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+<script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
@@ -40,7 +45,7 @@
 
 <script src="components/recommended/yelpAPI.js"></script>
 <script src="components/recommended/divisionRestaurants.js"></script>
-<script src="components/recommended/recommendedController.js"></script>
+<script src="components/recommended/recommendedController2.js"></script>
 
 
 <script src="components/categoryDropdown/categoryService.js"></script>
@@ -59,7 +64,7 @@
 
 <script src="components/choroplethOverlay/leaflet-choropleth-directive.js"></script>
 
-<script src="assets/js/ng-grid-2.0.14.debug.js"></script>
+<script src="assets/js/ui-grid.min.js"></script>
 
 
 <div class="container" id="map" ng-controller="mapController">
@@ -71,7 +76,7 @@
             <div class="panel panel-default" id="panel1">
                 <div class="panel-heading smoothOperator">
                     <h4 class="panel-title settingsTitle">
-                        <a data-toggle="collapse" data-target="#collapseOne"
+                        <a data-parent="#accordion" data-toggle="collapse" data-target="#collapseOne"
                            href="#collapseOne">
                             Analysis
                         </a>
@@ -135,9 +140,9 @@
             <div class="panel panel-default" id="panel2">
                 <div class="panel-heading smoothOperator">
                     <h4 class="panel-title settingsTitle">
-                        <a data-toggle="collapse" data-target="#collapseTwo"
+                        <a data-parent="#accordion" data-toggle="collapse" data-target="#collapseTwo"
                            href="#collapseTwo">
-                            Restaurants
+                            Resto-in Partners
                         </a>
                     </h4>
                 </div>
@@ -150,7 +155,7 @@
                                 <label for="markerStatus">Show markers</label>
                             </div>
                             <h4 style="text-align: center !important; font-family: Roboto, Arial, sans-serif !important;">{{city}} ({{total}})</h4>
-                            <div id="gridRest" class="gridStyle" ng-grid="gridOptions"></div>
+                            <div id="gridRest" class="gridStyle" ui-grid="gridOptions" ui-grid-auto-resize></div>
                         </div>
                     </div>
                 </div>
@@ -158,7 +163,7 @@
             <div class="panel panel-default" id="panel3">
                 <div class="panel-heading smoothOperator">
                     <h4 class="panel-title settingsTitle">
-                        <a data-toggle="collapse" data-target="#collapseThree"
+                        <a data-parent="#accordion" data-toggle="collapse" data-target="#collapseThree"
                            href="#collapseThree">
                             Recommendations
                         </a>
@@ -171,13 +176,13 @@
                             </h4>
                             <div ng-if="regionClicked" class="col-md-12 titleRec">
                                 <h4>
-                                    {{division}}<span ng-if="divisionCallCount">({{rowData.length}})</span>
+                                    {{division}}<span ng-if="divisionCallCount">({{gridOptions.data.length}})</span>
                                 </h4>
-                                <button ng-if="rowData.length == 0" ng-click="getRecommendations()" class="btn btn-primary suggestionBtn">Get me the list!
+                                <button ng-if="gridOptions.data.length == 0" ng-click="getRecommendations()" class="btn btn-primary suggestionBtn">Get me the list!
                                 </button>
                                 <img src="assets/img/Powered_By_Yelp_Black.png"/>
                             </div>
-                            <div id="gridSave" ng-if="rowData.length > 0" class="gridStyle" ng-grid="gridOptions"></div>
+                            <div id="gridSave" ng-if="gridOptions.data.length > 0" class="gridStyle" ui-grid="gridOptions" ui-grid-resize-columns ui-grid-selection></div>
                         </div>
                     </div>
                 </div>

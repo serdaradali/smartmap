@@ -39,8 +39,8 @@ angular.module("geoAnalysis")
                 }
             });
 
-            $scope.updateRecommendations = function(isMore) {
-                if(!isMore) {
+            $scope.updateRecommendations = function(isFirst) {
+                if(isFirst) {
                     $scope.offsetCount = 0;
                 }
                 else {
@@ -68,7 +68,7 @@ angular.module("geoAnalysis")
                         $scope.callCount++;
                         $scope.divisionCallCount++;
                         if ($scope.divisionCallCount < $scope.DIVISION_REST_LIMIT) {
-                            $scope.updateRecommendations(true);
+                            $scope.updateRecommendations(false);
                         }
                     });
                 } /*else { // recommendations for this city & division already exist.
@@ -98,6 +98,10 @@ angular.module("geoAnalysis")
                 },
                 function(newVal,oldVal) {
                     if(newVal.ind !== -1) {// if it is not the default value
+                        $scope.rowData = [];
+                        $scope.divisionCallCount = 0;
+                        //$scope.callCount = 0;
+                        $scope.offsetCount = 0;
                         cityService.setCurrentDivision(newVal.ind);
                         $scope.division = cityService.getCurrentDivision();
                         $scope.regionClicked = true;
@@ -106,9 +110,7 @@ angular.module("geoAnalysis")
 
             $scope.getRecommendations = function(){
                 cityService.getPolygonStatus2().then(function() {
-                    $scope.rowData = [];
-                    $scope.divisionCallCount = 0;
-                    $scope.updateRecommendations();
+                    $scope.updateRecommendations(true);
                     /*for(var i=0;i<5;i++) {
                      $scope.updateRecommendations(true);
                      }*/

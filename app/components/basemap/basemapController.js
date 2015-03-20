@@ -36,7 +36,7 @@ angular.module("geoAnalysis")
                 },
                 markers: [],
                 levels: cityService.getCurrentCityLevels(),
-                levelInd: 0
+                levelInd: 1
             });
 
 

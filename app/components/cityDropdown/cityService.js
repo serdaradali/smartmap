@@ -5,7 +5,7 @@
 angular.module("geoAnalysis")
     .factory("cityService",['leafletData', 'choroService', function(leafletData,choroService) {
 
-        var polygonReady = false, polygonPromise = {}, currLevel = 0;
+        var polygonReady = false, polygonPromise = {}, currLevel = 1;
 
         var selectedDivisionInd = 4;
 
@@ -120,6 +120,9 @@ angular.module("geoAnalysis")
             currLevel = level;
             polygonReady = false;
             if(!cities[name].hasOwnProperty("polygon") || !cities[name]["polygon"].hasOwnProperty(currLevel.toString())) { // if city doesn't already have a polygon
+                if(cities[name].levels.length <= level) {
+                    level = 0;
+                }
                 polygonPromise = d3.promise.json("assets/data/" + name + level + "Topo.json").then(function (json) {
                     var featureObj = topojson.feature(json, json["objects"][name]);
                     storePolygon(name, featureObj);
